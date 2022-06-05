@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <!-- <div class="image">
+                    <img src="img/hero.png" alt="">
+                </div> -->
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Daniel Nguyen.</span><br>
+                    An Engineer.
+                </h1>
+                <p>
+                    I love solving problems through design and engineering. 
+                    I study electrical engineering with a minor in computer science at the University of Louisville.
+                    Let's chat!
+
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eveniet labore nihil obcaecati consequatur. Debitis error doloremque, 
+                        vero eos vel nemo eius voluptatem dicta tenetur modi. <br /> <br /> La musica
+                        delectus dolore fugiat exercitationem a, 
+                        ipsum quidem quo enim natus accusamus labore dolores nam. Unde.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Harum non necessitatibus deleniti eum soluta.
+                    </p>
+                </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <br>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration"></nr>May 2022 - Present</p>
+                    <h5>Software Engineering Intern<span> - SpaceX</span></h5>
+                    <p>
+                        Project lead of several R&D projects to produce starship launch vehicles by reducing the takt time of critical rocket components with robotic automation
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Jan 2021 - Present</p>
+                    <h5>Undergraduate Student Researcher<span> - Louisville Automation and Robotics Research Institute</span></h5>
+                    <p>
+                        Work with a team of engineers to design and develop robots and multi-modal sensor skin
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Aug 2021 - Dec 2021</p>
+                    <h5>Electrical Engineering Intern<span> - General Dynamics Mission Systems</span></h5>
+                    <p>
+                        Electrical Hardware for Undersea Systems
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Jan 2021 - May 2021</p>
+                    <h5>Electrical Engineering Intern<span> - GE Appliances</span></h5>
+                    <p>
+                        Electrical Hardware Design
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2019 - 2023</p>
+                    <h5>B.S. in Electrical Engineering<span> - University of Louisville</span></h5>
+                    <p>
+                        Minor in Computer Science
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Present</p>
+                    <h5>Avionics<span> - River City Rocketry</span></h5>
+                    <p>
+                        Design, build, & test electronics and software for a high-powered rocket to compete in national collegiate-level competition
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="projects">
+            <div class="projects-content">
+                <div class="main-title">
+                    <h2>My <span>Projects</span><span class="bg-text">Projects</span></h2>
+                </div>
+                <div class="projects">
+                    <div class="project">
+                        <img src="img/SkinSensorBlockDiagram.png" alt="">
+                        <div class="project-text">
+                            <h4>
+                                Skin Sensor
+                            </h4>
+                            <p>
+                                I designed, programmed, and tested a skin sensor. This design can easily detect minuscule touches across multiple sensors. The DAC is calibrated to find the sensor's resting voltage. Changes in the sensor result in a change in voltage from the setpoint of the DAC.
+                                <br><br>I also programmed a simulation in python to determine the gain, ADC & DAC accuracy, and time required for calibration.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="img/FlightComputerBlockDiagram.png" alt="">
+                        <div class="project-text">
+                            <h4>
+                                Payload
+                            </h4>
+                            <p>
+                                The payload flight computer acts as a recovery system. It applies sensor fusion to determine the payload's orientation and send the data back to the ground station. It then steers the parachute using stepper motors to land at given GPS coordinates.
+                                <br><br>The ground station receives the data from the variable drag system (VDS) and the payload flight computer. It then parses the data which is sent to a webserver and the data is visualized.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="img/SortingAlgoVisualizer.png" alt="">
+                        <div class="project-text">
+                            <h4>
+                                Sorting Algorithm Visualizer
+                            </h4>
+                            <p>
+                                Sorting Algorithm Visualizer: I created a simple python program that generates a controlled array of random data and displays real-time visualization of the bubble sort algorithm on a GUI. The user can select the size of the array and the maximum and minimum values.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="project">
+                        <img src="img/ML.png" alt="">
+                        <div class="project-text">
+                            <h4>
+                                Music Genre Predictor
+                            </h4>
+                            <p>
+                                Machine Learning project that predicts user’s preferred music genre based on age and gender
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="projects">
+            <i class="fas fa-briefcase"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
