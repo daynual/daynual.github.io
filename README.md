@@ -33,7 +33,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Your Name - daniel.nguyen@louisville.edu
+Email - daniel.nguyen@louisville.edu
 
 Project Link: ([https://github.com/daynual/daynual.github.io](https://github.com/daynual/daynual.github.io))
 
