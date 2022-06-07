@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+    <br>
+    <div class="theme-back-btn">
+        <a href="index.html" class="main-btn">
+            <span class="btn-icon"><i class="fas fa-arrow-left"></i></span>
+        </a>
+    </div>
+
+    <h1 class="projects-header">
+        Flight Computer &<br>
+        Ground Station
+    
+
+        <p class="">
+            The payload flight computer acts as a recovery<br> 
+            system. It applies sensor fusion to determine the<br>
+            payload's orientation and send the data back to<br>
+            the ground station. It then steers the parachute<br>
+            using stepper motors to land at given GPS coordinates.<br>
+            <br>
+            The ground station receives the data from the<br>
+            variable drag system (VDS) and the payload flight<br>
+            computer. It then parses the data which is sent to a<br>
+            webserver and the data is visualized.<br>
+        </p>
+
+    </h1>
+
+
+    <div class="projects-img">
+        <img src="img/FlightComputerBlockDiagram.png" alt="Sensor Schematic">
+        <img src="img/FlightComputerPhysical.png" alt="Block Diagram">
+        <img src="img/FlightComputerModel.png" alt="PCB Design">
+    </div>
+
+
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
