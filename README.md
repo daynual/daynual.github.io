@@ -20,7 +20,6 @@
 * [HTML]
 * [JavaScript]
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -31,7 +30,6 @@
 - [ ] Add Pyscript for python projects
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
