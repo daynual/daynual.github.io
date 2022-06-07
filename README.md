@@ -2,7 +2,6 @@
 <h3 align="center">Portfolio Website V1.0</h3>
 
   <p align="center">
-    <br />
     <a href="https://daynual.github.io">View Demo</a>
     ·
     <a href="https://github.com/daynual/daynual.github.io/issues">Report Bug</a>
