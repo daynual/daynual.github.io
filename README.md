@@ -3,7 +3,6 @@
 
   <p align="center">
     <br />
-    <br />
     <a href="https://daynual.github.io">View Demo</a>
     ·
     <a href="https://github.com/daynual/daynual.github.io/issues">Report Bug</a>
