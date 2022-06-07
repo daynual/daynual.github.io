@@ -1,12 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <h3 align="center">Portfolio Website V1.0</h3>
 
@@ -46,8 +37,8 @@
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - daniel.nguyen@louisville.edu
 
-Project Link: [[https://github.com/daynual/repo_name](https://github.com/daynual/daynual.github.io)]([https://github.com/github_username/repo_name](https://github.com/daynual/daynual.github.io))
+Project Link: ([https://github.com/daynual/daynual.github.io](https://github.com/daynual/daynual.github.io))
 
 <p align="right">(<a href="#top">back to top</a>)</p>
