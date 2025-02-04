@@ -125,7 +125,7 @@ yesButton.addEventListener('click', function() {
   if (!document.getElementById("yesMessage")) {
     let messageEl = document.createElement("p");
     messageEl.id = "yesMessage";  // assign a unique id
-    messageEl.textContent = "Thank you for saying Yes!";
+    messageEl.textContent = "Thank you for saying Yes! I love you so so so so much. From Dan.";
     messageEl.style.fontSize = "24px";
     messageEl.style.marginTop = "20px";
     
