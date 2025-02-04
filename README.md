@@ -24,16 +24,8 @@
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Complete Projects Pages
-- [ ] Add Pyscript for python projects
-
-
-
-
 <!-- CONTACT -->
 ## Contact
-
-Email - daniel.nguyen@louisville.edu
 
 Project Link: ([https://github.com/daynual/daynual.github.io](https://github.com/daynual/daynual.github.io))
 

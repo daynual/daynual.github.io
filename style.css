@@ -1,0 +1,52 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+/* Center everything in the viewport */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+/* Style for the GIF image */
+.gif {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+/* Enlarged button container */
+.button-container {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  /* Uncomment the next line to visualize the container boundaries during testing */
+  /* border: 1px dashed #ccc; */
+}
+/* Common styling for both buttons (larger size) */
+.btn {
+  padding: 20px 40px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+}
+/* Yes button (green) */
+.yes {
+  background-color: green;
+}
+/* No button (red) */
+.no {
+  background-color: red;
+}
+
